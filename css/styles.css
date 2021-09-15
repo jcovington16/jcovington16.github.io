@@ -2,42 +2,72 @@
 
 :root {
     --electric-blue: #38AAEB;
-    --smoke-grey: #DCD5D5;
+    --smoke-grey: #919090d6;
 }
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+} */
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.7;
-    background-color: black;
+    line-height: 1.2;
+}
+
+.item_wrapper {
+    display: flex;
+    align-items: center;    
 }
 
 .logo {
     width: 300px;
-    float: left;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+.main {
+    display: flex;
+    margin-top: 10rem;
 }
 
-.fab, .fas {
-    margin: 5px;
+.about-me {
+    margin-left: 10rem;
 }
 
-.nav-items {
-    display: inline;
-    color: var(--smoke-grey);
-    margin: 10px 10px;   
+#about-me-img{
+    float: right;
+    width: 600px;
+    margin-left: 10rem;
+    margin-right: 2rem;
 }
+
+#projects {
+    margin-top: 20rem;
+    height: 600px;
+    background-color: black;
+}
+
+#skills {
+    margin-top: 20rem;
+    height: 600px;
+    background-color: #38AAEB;
+}
+
+#contact {
+    margin-top: 20rem;
+    height: 600px;
+    background-color: crimson;
+}
+
+
+/* .nav-items {
+    transition: 0.2s ease;
+    transform: translate(0, -5px);
+} */
 
