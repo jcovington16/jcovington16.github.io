@@ -19,7 +19,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1;
+    line-height: 1.5;
 }
 
 #logo {
@@ -55,7 +55,7 @@ body {
 
 #projects {
     margin-top: 30rem;
-    height: 600px;
+    height: 400px;
     display: flex;
 }
 
@@ -70,23 +70,54 @@ body {
 
 #skills {
     margin-top: 20rem;
-    height: 600px;
-    background-color: #38AAEB;
+    height: 500px;
+    /* background-color: #38AAEB; */
 }
 
-.skills-header > h3 {
+.skills_header {
     text-align: center;
+}
+
+.skills_info {
+    margin-top: 8rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.skills_icons {
+    display: grid;
+    grid-template-columns: 100px 50px 100px;
+    /* grid-template-rows: 80px auto 80px; */
+    row-gap: 15px;
+    margin-left: 5rem;
+}
+
+.skills_icons i {
+   font-size: 30px; 
 }
 
 #contact {
     margin-top: 20rem;
-    height: 600px;
-    background-color: crimson;
+    height: 500px;
+    text-align: center;
+
+}
+
+.contact_header{
+    text-align: center;
 }
 
 
 .project-items {
     transform: translate(0, -5px);
     transition: 0.2s ease;
+}
+
+.closing {
+    text-align: center;
+    margin-top: 3rem;
 }
 
