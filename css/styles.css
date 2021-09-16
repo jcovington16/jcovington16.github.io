@@ -5,11 +5,11 @@
     --smoke-grey: #919090d6;
 }
 
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 
 html {
     scroll-behavior: smooth;
@@ -19,21 +19,27 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1;
+}
+
+#logo {
+    width: 300px;
 }
 
 .item_wrapper {
     display: flex;
-    align-items: center;    
+    align-items: center;
+    justify-content: center; 
+    margin-top: 4rem;   
 }
 
-.logo {
-    width: 300px;
+.last{
+    margin-right: 2rem;
 }
 
 .main {
     display: flex;
-    margin-top: 10rem;
+    margin-top: 15rem;
 }
 
 .about-me {
@@ -48,15 +54,28 @@ body {
 }
 
 #projects {
-    margin-top: 20rem;
+    margin-top: 30rem;
     height: 600px;
-    background-color: black;
+    display: flex;
+}
+
+.card1, .card2, .card3 {
+    text-align: center;
+}
+
+
+.dad-jokes-img, .day-trip-img {
+    width: 300px;
 }
 
 #skills {
     margin-top: 20rem;
     height: 600px;
     background-color: #38AAEB;
+}
+
+.skills-header > h3 {
+    text-align: center;
 }
 
 #contact {
@@ -66,8 +85,8 @@ body {
 }
 
 
-/* .nav-items {
-    transition: 0.2s ease;
+.project-items {
     transform: translate(0, -5px);
-} */
+    transition: 0.2s ease;
+}
 
