@@ -59,6 +59,11 @@ body {
     display: flex;
 }
 
+.project-items {
+    transform: translate(0, -5px);
+    transition: 0.2s ease;
+}
+
 .card1, .card2, .card3 {
     text-align: center;
 }
@@ -111,13 +116,13 @@ body {
 }
 
 
-.project-items {
-    transform: translate(0, -5px);
-    transition: 0.2s ease;
-}
-
 .closing {
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 5rem;
+    
 }
 
+.closing > a:hover {
+    color: green;
+    text-decoration: none;
+}
