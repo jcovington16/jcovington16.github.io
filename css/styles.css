@@ -160,3 +160,39 @@ margin-top: 10px;
     color: #5c5e5d;
     text-decoration: none;
 }
+
+
+
+/* Mobile Phones Portrait */
+
+@media screen and (max-width: 480px) {
+    
+}
+
+
+
+/* Responsive Design portion */
+
+@media only screen and (max-width: 786px) {
+
+    nav {
+        justify-content: end
+    };
+
+    #logo {
+        width: 200px;
+    }
+
+    .main {
+        display: grid;
+        place-content: center;
+        margin: auto;
+        margin-top: 10rem;
+        
+    }
+
+    #about-me-img {
+        width: 400px;
+        margin-top: 5rem;
+    }
+}
