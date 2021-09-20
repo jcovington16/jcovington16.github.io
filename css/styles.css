@@ -69,7 +69,7 @@ body {
 }
 
 
-.dad-jokes-img, .day-trip-img {
+.dad-jokes-img, .day-trip-img, .rock-paper-img {
     width: 300px;
 }
 
@@ -108,6 +108,7 @@ body {
     margin-top: 20rem;
     height: 500px;
     text-align: center;
+    justify-content: center;
 
 }
 
