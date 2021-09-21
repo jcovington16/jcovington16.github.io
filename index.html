@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- CSS only -->
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
@@ -17,14 +18,21 @@
     <!-- Header/ Navbar -->
     <header class="header">
         <div class="row">
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-4 col-sm-4">
                 <img id="logo" src="./img/58084_JCyber_RK_02.png" alt="">
             </div>
 
             <div class="col">
                 <nav class="nav justify-content-end">
                     <ul class="nav">
-        
+
+                        <li class="nav-item nav-padding">
+                            <div class="item_wrapper">
+                                <i class="fas fa-book-reader"></i>
+                                <a class="nav-link" href="#about-me">About Me</a>
+                            </div>
+                        </li>
+
                         <li class="nav-item nav-padding">
                             <div class="item_wrapper">
                                 <i class="fas fa-laptop-code"></i>
@@ -52,8 +60,12 @@
 
     </header>
 
-    <!-- Main section of the page. Including bio -->
-    <main class="main">
+    <main id="main">
+        <!-- <img src="./img/IMG_1829.JPG" alt="city of denver" class="main-img"> -->
+    </main>
+
+    <!-- About Me Section of the page. Including bio -->
+    <div id="about-me">
         <div class="about-me">
             <h3>Hi! I'm Joshua!</h3><br>
             <p>I'm a Full Stack Developer. I'm 6 year Army vet with a background in networks and security.</p>
@@ -65,8 +77,9 @@
         <div class="about-me-img">
             <img id="about-me-img" src="./img/IMG_1848.JPG" alt="Personal Photo">
         </div>
-    </main>
+    </div>
 
+    <!-- Project Section of the page -->
     <div id="projects">
         <div class="card1">
             <h3 class="card_header">Dad Jokes</h3>
@@ -102,6 +115,7 @@
         </div>
     </div>
 
+    <!-- Skills Section of the page -->
     <div id="skills">
         <div class="skills_header">
             <h3>My Skills</h3><br>
@@ -141,42 +155,47 @@
 
     </div>
 
+    <!-- Contact Section of the page -->
     <div id="contact">
-        <h3 class="contact_header">Hire Me!</h3><br>
+        <h2 class="contact_header">Contact Me! 📞</h2><br>
+        <div class="row">
+            <div class="contact_title">
+                <p>Discuss a project or a potential opportunity? My inbox is open for all</p>
+            </div>
+            <h4>"Aspiring Full Stack Software Developer 🎓 | Open Source Contributor 🔨 | Army Vet 🇺🇲 | Network Engineering Experience 🖨️"</h4>
 
-        <!-- <form action="#" class="row justify-content-center"> -->
-        <form action="#">
-            <legend>Give me a shout!</legend>
-
-            <div class="form-floating">
-                <input type="text" class="form-control" id="floatingPassword" placeholder="Full Name">
-                <label for="floatingPassword">Full Name</label>
+            <div class="location-div">
+                <span>📍 "Denver, CO"</span>
             </div>
 
-            <div class="form-floating mb-3">
-                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                <label for="floatingInput">Email address</label>
+            <div class="social-media-div">
+                <a href="https://github.com/jcovington16" target="_blank" rel="noopener noreferrer" class="icon-button github">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/joshua-covington-365567176" target="_blank" rel="noopener noreferrer" class="icon-button linkedin">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:covingtonjoshua7@gmail.com" target="_blank" rel="noopener noreferrer" class="icon-button google">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="https://www.youtube.com/user/_jcyber" target="_blank" rel="noopener noreferrer" class="icon-button youtube">
+                    <i class="fab fa-youtube"></i>
+                </a>
             </div>
-
-            <div class="form-floating">
-                
-                <textarea class="form-control" id="floatingInput" rows="3"></textarea>
-                <label for="floatingInput">Leave a comment...</label>
-            </div>
-
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+        </div>
 
     </div>
 
     <footer>
         <div class="closing">
-            Made with ❤️ by Joshua Covington aka <a href="https://github.com/jcovington16">Jcyber</a>
+            Made with 💪🏿 by Joshua Covington aka <a href="https://github.com/jcovington16">Jcyber</a>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/3415e38217.js" crossorigin="anonymous"></script>
+    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+
     
 </body>
 </html>
