@@ -39,7 +39,43 @@ body {
 
 
 /* Home Section */
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/IMG_1829.JPG);
+    background-size: cover;
+    height: 80vh;
+}
 
+#main h1 {
+    color: #fff;
+}
+
+.typing {
+    position: relative;
+    margin-left: 10px;
+}
+
+.typing::after {
+    content: "";
+    position: absolute;
+    right: -5px;
+    width: 1px;
+    height: 90%;
+    border-right: 2px solid #fff;
+    animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
 
 
 
@@ -183,6 +219,10 @@ body {
     background-color: #ea4335;
 }
 
+.twitter i {
+    background-color: #38AAEB;
+}
+
 /* Hover Transition */
 .youtube i:hover,
 .google i:hover,
@@ -193,7 +233,7 @@ body {
 
 
 
-
+/* Footer Section */
 .closing {
     text-align: center;
 
